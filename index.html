@@ -1,0 +1,773 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <meta
+    name="description"
+    content="Six complementary .com and .co.uk home-improvement domains covering kitchens, bedrooms and bathrooms are available through a structured private sale."
+  >
+
+  <title>Kit Kitchens, Bedrooms & Bathrooms | Domain Portfolio for Sale</title>
+
+  <style>
+    :root {
+      --yellow: #f4c400;
+      --yellow-soft: #fff7d2;
+      --black: #111111;
+      --charcoal: #292929;
+      --grey: #656565;
+      --line: #dedede;
+      --light: #f6f6f4;
+      --white: #ffffff;
+      --max-width: 1120px;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    html {
+      scroll-behavior: smooth;
+    }
+
+    body {
+      margin: 0;
+      background: var(--white);
+      color: var(--black);
+      font-family: "Segoe UI", Arial, Helvetica, sans-serif;
+      line-height: 1.55;
+      -webkit-font-smoothing: antialiased;
+    }
+
+    a {
+      color: inherit;
+    }
+
+    .container {
+      width: min(var(--max-width), calc(100% - 48px));
+      margin: 0 auto;
+    }
+
+    .top-strip {
+      height: 8px;
+      background: var(--yellow);
+    }
+
+    .site-header {
+      border-bottom: 1px solid var(--line);
+      background: rgba(255, 255, 255, 0.97);
+    }
+
+    .header-inner {
+      min-height: 92px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 28px;
+    }
+
+    .brand-logo {
+      display: block;
+      width: min(300px, 52vw);
+      height: auto;
+    }
+
+    .header-label {
+      color: var(--grey);
+      font-size: 13px;
+      font-weight: 700;
+      letter-spacing: 0.13em;
+      text-transform: uppercase;
+      white-space: nowrap;
+    }
+
+    .hero {
+      padding: 82px 0 88px;
+      background:
+        linear-gradient(90deg, rgba(244,196,0,0.11) 0, rgba(244,196,0,0.11) 34%, transparent 34%),
+        var(--white);
+    }
+
+    .hero-grid {
+      display: grid;
+      grid-template-columns: minmax(0, 1.4fr) minmax(310px, 0.75fr);
+      align-items: center;
+      gap: 72px;
+    }
+
+    .eyebrow {
+      display: inline-flex;
+      align-items: center;
+      gap: 10px;
+      margin-bottom: 22px;
+      color: var(--charcoal);
+      font-size: 14px;
+      font-weight: 750;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+    }
+
+    .eyebrow::before {
+      content: "";
+      width: 38px;
+      height: 4px;
+      background: var(--yellow);
+    }
+
+    h1 {
+      max-width: 720px;
+      margin: 0;
+      font-size: clamp(42px, 6vw, 72px);
+      line-height: 1.02;
+      letter-spacing: -0.045em;
+    }
+
+    .hero-copy {
+      max-width: 690px;
+      margin: 26px 0 0;
+      color: var(--grey);
+      font-size: clamp(18px, 2vw, 21px);
+    }
+
+    .hero-actions {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 14px;
+      margin-top: 34px;
+    }
+
+    .button {
+      display: inline-flex;
+      min-height: 50px;
+      align-items: center;
+      justify-content: center;
+      padding: 13px 23px;
+      border: 2px solid var(--black);
+      font-size: 15px;
+      font-weight: 750;
+      text-decoration: none;
+      transition: 0.18s ease;
+    }
+
+    .button-primary {
+      background: var(--black);
+      color: var(--white);
+    }
+
+    .button-primary:hover,
+    .button-primary:focus {
+      background: var(--yellow);
+      color: var(--black);
+    }
+
+    .button-secondary {
+      background: transparent;
+      color: var(--black);
+    }
+
+    .button-secondary:hover,
+    .button-secondary:focus {
+      background: var(--black);
+      color: var(--white);
+    }
+
+    .summary-card {
+      position: relative;
+      overflow: hidden;
+      padding: 38px;
+      border: 1px solid var(--line);
+      background: var(--black);
+      color: var(--white);
+      box-shadow: 16px 16px 0 var(--yellow);
+    }
+
+    .summary-card::after {
+      content: "";
+      position: absolute;
+      right: -54px;
+      bottom: -54px;
+      width: 150px;
+      height: 150px;
+      border: 28px solid rgba(244,196,0,0.16);
+      border-radius: 50%;
+    }
+
+    .summary-label {
+      margin: 0 0 28px;
+      color: var(--yellow);
+      font-size: 13px;
+      font-weight: 750;
+      letter-spacing: 0.13em;
+      text-transform: uppercase;
+    }
+
+    .summary-stat {
+      position: relative;
+      z-index: 1;
+      display: grid;
+      grid-template-columns: 64px 1fr;
+      align-items: center;
+      gap: 16px;
+      padding: 18px 0;
+      border-top: 1px solid rgba(255,255,255,0.19);
+    }
+
+    .summary-stat:first-of-type {
+      border-top: 0;
+      padding-top: 0;
+    }
+
+    .summary-number {
+      color: var(--yellow);
+      font-size: 37px;
+      font-weight: 800;
+      line-height: 1;
+    }
+
+    .summary-text {
+      font-size: 16px;
+      font-weight: 650;
+      line-height: 1.3;
+    }
+
+    section {
+      padding: 82px 0;
+    }
+
+    .section-heading {
+      display: grid;
+      grid-template-columns: minmax(0, 0.85fr) minmax(0, 1.15fr);
+      gap: 70px;
+      align-items: end;
+      margin-bottom: 38px;
+    }
+
+    .section-kicker {
+      margin: 0 0 11px;
+      color: var(--grey);
+      font-size: 13px;
+      font-weight: 750;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+    }
+
+    h2 {
+      margin: 0;
+      font-size: clamp(31px, 4vw, 46px);
+      line-height: 1.08;
+      letter-spacing: -0.035em;
+    }
+
+    .section-intro {
+      margin: 0;
+      color: var(--grey);
+      font-size: 18px;
+    }
+
+    .portfolio-section {
+      background: var(--light);
+    }
+
+    .portfolio-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 20px;
+    }
+
+    .portfolio-card {
+      min-height: 245px;
+      padding: 30px;
+      border: 1px solid var(--line);
+      border-top: 6px solid var(--yellow);
+      background: var(--white);
+      transition: transform 0.18s ease, box-shadow 0.18s ease;
+    }
+
+    .portfolio-card:hover {
+      transform: translateY(-4px);
+      box-shadow: 0 14px 28px rgba(0,0,0,0.08);
+    }
+
+    .card-number {
+      margin-bottom: 38px;
+      color: #a0a0a0;
+      font-size: 13px;
+      font-weight: 750;
+      letter-spacing: 0.11em;
+    }
+
+    .portfolio-card h3 {
+      margin: 0 0 17px;
+      font-size: 25px;
+      line-height: 1.2;
+    }
+
+    .domain {
+      display: block;
+      padding: 7px 0;
+      color: var(--charcoal);
+      font-size: 16px;
+      font-weight: 700;
+    }
+
+    .details-grid {
+      display: grid;
+      grid-template-columns: 0.9fr 1.1fr;
+      gap: 24px;
+    }
+
+    .included {
+      padding: 38px;
+      border: 1px solid var(--line);
+      background: var(--yellow-soft);
+    }
+
+    .included h2,
+    .process h2 {
+      margin-bottom: 22px;
+      font-size: 30px;
+      letter-spacing: -0.025em;
+    }
+
+    .included ul {
+      margin: 0;
+      padding: 0;
+      list-style: none;
+    }
+
+    .included li {
+      position: relative;
+      padding: 13px 0 13px 28px;
+      border-top: 1px solid rgba(17,17,17,0.13);
+    }
+
+    .included li:first-child {
+      border-top: 0;
+    }
+
+    .included li::before {
+      content: "";
+      position: absolute;
+      left: 2px;
+      top: 21px;
+      width: 9px;
+      height: 9px;
+      background: var(--yellow);
+      border: 2px solid var(--black);
+    }
+
+    .process {
+      padding: 38px;
+      background: var(--black);
+      color: var(--white);
+    }
+
+    .process h2 {
+      color: var(--yellow);
+    }
+
+    .process-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 0 24px;
+      counter-reset: steps;
+    }
+
+    .process-item {
+      position: relative;
+      min-height: 105px;
+      padding: 18px 0 18px 45px;
+      border-top: 1px solid rgba(255,255,255,0.17);
+      color: #e1e1e1;
+      font-size: 15px;
+      counter-increment: steps;
+    }
+
+    .process-item:nth-child(-n+2) {
+      border-top: 0;
+    }
+
+    .process-item::before {
+      content: counter(steps, decimal-leading-zero);
+      position: absolute;
+      left: 0;
+      top: 17px;
+      color: var(--yellow);
+      font-weight: 800;
+    }
+
+    .closing {
+      padding: 0;
+      background: var(--yellow);
+    }
+
+    .closing-inner {
+      min-height: 168px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 36px;
+    }
+
+    .closing-label {
+      margin: 0 0 7px;
+      font-size: 14px;
+      font-weight: 800;
+      letter-spacing: 0.13em;
+      text-transform: uppercase;
+    }
+
+    .closing-date {
+      margin: 0;
+      font-size: clamp(28px, 4vw, 43px);
+      font-weight: 800;
+      line-height: 1.1;
+      letter-spacing: -0.025em;
+    }
+
+    .contact-section {
+      background: var(--white);
+      text-align: center;
+    }
+
+    .contact-inner {
+      max-width: 780px;
+      margin: 0 auto;
+    }
+
+    .contact-inner h2 {
+      margin-bottom: 20px;
+    }
+
+    .contact-inner p {
+      margin: 0 auto 29px;
+      color: var(--grey);
+      font-size: 18px;
+    }
+
+    .small-print {
+      max-width: 880px;
+      margin: 44px auto 0;
+      color: #777;
+      font-size: 12px;
+      line-height: 1.6;
+    }
+
+    footer {
+      padding: 28px 0;
+      border-top: 1px solid var(--line);
+      background: var(--light);
+      color: var(--grey);
+      text-align: center;
+      font-size: 13px;
+    }
+
+    @media (max-width: 880px) {
+      .hero {
+        background: linear-gradient(180deg, rgba(244,196,0,0.11) 0, rgba(244,196,0,0.11) 37%, transparent 37%);
+      }
+
+      .hero-grid,
+      .section-heading,
+      .details-grid {
+        grid-template-columns: 1fr;
+      }
+
+      .hero-grid {
+        gap: 52px;
+      }
+
+      .section-heading {
+        gap: 20px;
+      }
+
+      .summary-card {
+        max-width: 580px;
+      }
+
+      .portfolio-grid {
+        grid-template-columns: 1fr;
+      }
+    }
+
+    @media (max-width: 620px) {
+      .container {
+        width: min(100% - 32px, var(--max-width));
+      }
+
+      .header-inner {
+        min-height: 78px;
+      }
+
+      .brand-logo {
+        width: min(225px, 61vw);
+      }
+
+      .header-label {
+        display: none;
+      }
+
+      .hero {
+        padding: 58px 0 66px;
+      }
+
+      h1 {
+        font-size: clamp(39px, 12vw, 54px);
+      }
+
+      section {
+        padding: 62px 0;
+      }
+
+      .summary-card {
+        padding: 30px 27px;
+        box-shadow: 10px 10px 0 var(--yellow);
+      }
+
+      .portfolio-card,
+      .included,
+      .process {
+        padding: 27px;
+      }
+
+      .process-grid {
+        grid-template-columns: 1fr;
+      }
+
+      .process-item:nth-child(2) {
+        border-top: 1px solid rgba(255,255,255,0.17);
+      }
+
+      .closing-inner {
+        min-height: 190px;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: center;
+      }
+
+      .closing-inner .button {
+        width: 100%;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <div class="top-strip"></div>
+
+  <header class="site-header">
+    <div class="container header-inner">
+      <img
+        class="brand-logo"
+        src="kitkitchens-logo.png"
+        alt="Kit Kitchens, Bedrooms and Bathrooms"
+      >
+      <div class="header-label">Private domain portfolio sale</div>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="container hero-grid">
+        <div>
+          <div class="eyebrow">Acquisition opportunity</div>
+
+          <h1>
+            One connected portfolio across three major home markets.
+          </h1>
+
+          <p class="hero-copy">
+            Six matching .com and .co.uk domains covering kitchens,
+            bedrooms and bathrooms, offered together with the supporting
+            Kit brand identity through a structured private sale.
+          </p>
+
+          <div class="hero-actions">
+            <a
+              class="button button-primary"
+              href="mailto:info@kitkitchens.com?subject=Domain%20Portfolio%20Acquisition%20Pack"
+            >
+              Request the information pack
+            </a>
+
+            <a class="button button-secondary" href="#portfolio">
+              View the portfolio
+            </a>
+          </div>
+        </div>
+
+        <aside class="summary-card" aria-label="Portfolio summary">
+          <p class="summary-label">Portfolio at a glance</p>
+
+          <div class="summary-stat">
+            <div class="summary-number">6</div>
+            <div class="summary-text">premium domains included</div>
+          </div>
+
+          <div class="summary-stat">
+            <div class="summary-number">3</div>
+            <div class="summary-text">complementary home-improvement sectors</div>
+          </div>
+
+          <div class="summary-stat">
+            <div class="summary-number">2</div>
+            <div class="summary-text">extensions for every brand: .com and .co.uk</div>
+          </div>
+        </aside>
+      </div>
+    </section>
+
+    <section class="portfolio-section" id="portfolio">
+      <div class="container">
+        <div class="section-heading">
+          <div>
+            <p class="section-kicker">The portfolio</p>
+            <h2>Six domains. Three coordinated brands.</h2>
+          </div>
+
+          <p class="section-intro">
+            A commercially relevant collection suitable for manufacturers,
+            retailers, trade suppliers, e-commerce businesses or investors
+            operating in the home-improvement sector.
+          </p>
+        </div>
+
+        <div class="portfolio-grid">
+          <article class="portfolio-card">
+            <div class="card-number">01 / Kitchens</div>
+            <h3>Kit Kitchens</h3>
+            <span class="domain">KitKitchens.com</span>
+            <span class="domain">KitKitchens.co.uk</span>
+          </article>
+
+          <article class="portfolio-card">
+            <div class="card-number">02 / Bedrooms</div>
+            <h3>Kit Bedrooms</h3>
+            <span class="domain">KitBedrooms.com</span>
+            <span class="domain">KitBedrooms.co.uk</span>
+          </article>
+
+          <article class="portfolio-card">
+            <div class="card-number">03 / Bathrooms</div>
+            <h3>Kit Bathrooms</h3>
+            <span class="domain">KitBathrooms.com</span>
+            <span class="domain">KitBathrooms.co.uk</span>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="container details-grid">
+        <div class="included">
+          <p class="section-kicker">Assets supplied</p>
+          <h2>Included in the sale</h2>
+
+          <ul>
+            <li>All six domains listed above</li>
+            <li>KitKitchens primary logo and visual identity</li>
+            <li>Supporting marketing and brand presentation material</li>
+            <li>Print-ready and digital brand files</li>
+            <li>Transfer of the supplied domains and brand assets</li>
+          </ul>
+        </div>
+
+        <div class="process">
+          <p class="section-kicker">How the sale works</p>
+          <h2>Private sealed-bid process</h2>
+
+          <div class="process-grid">
+            <div class="process-item">
+              Offers must be submitted by email before the stated closing date.
+            </div>
+
+            <div class="process-item">
+              Bidders must provide their name, company, business address and telephone number.
+            </div>
+
+            <div class="process-item">
+              Offers should identify the complete portfolio or the specific brand pair required.
+            </div>
+
+            <div class="process-item">
+              Preference may be given to an offer for the complete six-domain portfolio.
+            </div>
+
+            <div class="process-item">
+              Bidders may be invited to revise their offer or submit a final offer.
+            </div>
+
+            <div class="process-item">
+              The successful bidder will have 24 hours to initiate the escrow transaction.
+            </div>
+
+            <div class="process-item">
+              Funds are paid directly to the independent escrow provider.
+            </div>
+
+            <div class="process-item">
+              Domains and brand assets transfer after the escrow payment is secured.
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="closing">
+      <div class="container closing-inner">
+        <div>
+          <p class="closing-label">Offers close</p>
+          <p class="closing-date">Closing date to be confirmed</p>
+        </div>
+
+        <a
+          class="button button-primary"
+          href="mailto:info@kitkitchens.com?subject=Domain%20Portfolio%20Acquisition%20Enquiry"
+        >
+          Submit an enquiry
+        </a>
+      </div>
+    </section>
+
+    <section class="contact-section">
+      <div class="container contact-inner">
+        <p class="section-kicker">Acquisition enquiries</p>
+        <h2>Request the information pack or submit an offer</h2>
+
+        <p>
+          Include your full name, company, business address and telephone number.
+          All enquiries will be handled directly by email.
+        </p>
+
+        <a
+          class="button button-primary"
+          href="mailto:info@kitkitchens.com?subject=Domain%20Portfolio%20Acquisition%20Enquiry"
+        >
+          info@kitkitchens.com
+        </a>
+
+        <p class="small-print">
+          The seller reserves the right to reject any offer, withdraw or extend
+          the sale process, request evidence of identity or authority, and select
+          an offer other than solely on price. No sale is binding until terms are
+          confirmed and the escrow transaction is initiated.
+        </p>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container">
+      © <span id="year"></span> KitKitchens. Six domains covering kitchens,
+      bedrooms and bathrooms are included.
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById("year").textContent =
+      new Date().getFullYear();
+  </script>
+</body>
+</html>
