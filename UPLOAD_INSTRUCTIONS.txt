@@ -1,0 +1,12 @@
+KIT GITHUB FINAL WEBSITE — VERSION 6
+
+Closing date included: Friday, 28 August 2026.
+
+Upload the CONTENTS of this folder to the root of the GitHub repository:
+- index.html
+- styles.css
+- script.js
+- assets/
+
+Keep the existing CNAME file unchanged.
+Replace existing files when prompted.
