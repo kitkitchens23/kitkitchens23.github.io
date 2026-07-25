@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 160" role="img" aria-label="KIT">
+<rect width="420" height="160" rx="8" fill="#111111"/>
+<g fill="#ffffff">
+<path d="M42 28h28v42l42-42h38l-53 51 57 53h-40L70 90v42H42z"/>
+<rect x="174" y="28" width="28" height="104"/>
+<path d="M230 28h144v28h-58v76h-28V56h-58z"/>
+</g><rect x="202" y="28" width="14" height="104" fill="#ffd400"/></svg>
