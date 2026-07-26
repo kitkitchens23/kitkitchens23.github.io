@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="robots" content="noindex, nofollow">
+  <title>KIT — Coming Soon</title>
+  <style>
+    :root {
+      --yellow: #ffc400;
+      --black: #111111;
+      --grey: #5b5b5b;
+      --white: #ffffff;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    html,
+    body {
+      width: 100%;
+      min-height: 100%;
+      margin: 0;
+    }
+
+    body {
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 32px 20px;
+      background: var(--white);
+      color: var(--black);
+      font-family: Arial, Helvetica, sans-serif;
+      text-align: center;
+      border-top: 10px solid var(--yellow);
+    }
+
+    main {
+      width: 100%;
+      max-width: 680px;
+    }
+
+    .logo {
+      display: block;
+      width: min(290px, 72vw);
+      height: auto;
+      margin: 0 auto 46px;
+      user-select: none;
+      -webkit-user-drag: none;
+    }
+
+    .line {
+      width: 72px;
+      height: 6px;
+      margin: 0 auto 24px;
+      background: var(--yellow);
+    }
+
+    h1 {
+      margin: 0 0 18px;
+      font-size: clamp(42px, 8vw, 74px);
+      line-height: 0.95;
+      letter-spacing: -0.04em;
+    }
+
+    p {
+      margin: 0;
+      color: var(--grey);
+      font-size: clamp(18px, 3.2vw, 23px);
+      line-height: 1.5;
+    }
+
+    .email {
+      display: inline-block;
+      margin-top: 34px;
+      padding: 15px 24px;
+      background: var(--black);
+      color: var(--white);
+      font-size: 18px;
+      font-weight: 700;
+      text-decoration: none;
+      border: 2px solid var(--black);
+      transition: background 0.2s ease, color 0.2s ease;
+    }
+
+    .email:hover,
+    .email:focus-visible {
+      background: var(--yellow);
+      color: var(--black);
+      outline: none;
+    }
+
+    @media (max-width: 520px) {
+      body {
+        padding: 28px 18px;
+      }
+
+      .logo {
+        margin-bottom: 38px;
+      }
+
+      .email {
+        width: 100%;
+        max-width: 340px;
+        font-size: 17px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <img class="logo" src="assets/kit-logo.png" alt="KIT">
+    <div class="line" aria-hidden="true"></div>
+    <h1>Coming soon.</h1>
+    <p>A new KIT platform is being prepared.</p>
+    <a class="email" href="mailto:info@kitkitchens.com">info@kitkitchens.com</a>
+  </main>
+</body>
+</html>
