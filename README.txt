@@ -1,20 +1,9 @@
-KIT FINAL PRODUCTION WEBSITE — VERSION 1.0
+PERMANENT HERO IMAGE FIX — UPLOAD ONLY THESE 3 FILES
 
-Upload the CONTENTS of this folder to the root of the GitHub Pages repository:
-- index.html
-- styles.css
-- script.js
-- assets/ (complete folder)
+1. Replace the root index.html
+2. Replace the root styles.css
+3. Upload assets/hero-brand-platform-v12.jpg into the existing assets folder
 
-Keep the existing CNAME file unchanged.
+Do not replace or delete any other files.
 
-Confirmed portfolio:
-- kitkitchens.com / kitkitchens.co.uk
-- kitbedrooms.com / kitbedrooms.co.uk
-- kitbathrooms.com / kitbathrooms.co.uk
-- kitinteriors.com / kitinteriors.co.uk
-- kitstorage.com / kitstorage.co.uk
-
-Closing date: Friday, 28 August 2026.
-
-Final locked update: approved logo applied consistently; Acquisition Process includes independent escrow and strict confidentiality.
+This removes the separate floating hero logo patches and uses one flattened corrected photograph under a new filename, so browser/GitHub caching cannot reuse the broken version. Lower-page logo corrections are left unchanged.
